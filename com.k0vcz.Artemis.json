@@ -102,8 +102,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/jaybaird/artemis.git",
-                    "tag": "v1.0.0",
-                    "commit": "cc1f74257988c3a7bdc3a04b7a642e72af83cf99"
+                    "tag": "v1.0.1",
+                    "commit": "ac3d7f0846a3f00fefae15bd4f045b28f6f5d68a"
                 }
             ]
         }
