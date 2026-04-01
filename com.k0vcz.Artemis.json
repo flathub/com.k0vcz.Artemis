@@ -1,7 +1,7 @@
 {
     "id": "com.k0vcz.Artemis",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "com.k0vcz.Artemis",
     "finish-args": [
@@ -13,12 +13,12 @@
     ],
     "cleanup": [
         "/include",
+        "/lib/cmake",
+        "/lib/girepository-1.0",
         "/lib/pkgconfig",
-        "/man",
         "/share/doc",
-        "/share/gtk-doc",
+        "/share/gir-1.0",
         "/share/man",
-        "/share/pkgconfig",
         "/share/vala",
         "*.la",
         "*.a"
