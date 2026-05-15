@@ -96,14 +96,15 @@
             "builddir": true,
             "buildsystem": "meson",
             "config-opts": [
-                "-Dbuildtype=release"
+                "-Dbuildtype=release",
+                "-Dopenweather_api_key=f2ec4b9668f7d4eda24a2baf7ebe337d"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/jaybaird/artemis.git",
-                    "tag": "v1.2",
-                    "commit": "8e360d22e7e95458e63a1873a3dcb25229ca9182"
+                    "tag": "v2.0",
+                    "commit": "a35e4fc5dbcefed7781055d986318c73b44689d7"
                 }
             ]
         }
